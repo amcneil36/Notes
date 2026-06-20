@@ -1,4 +1,4 @@
-## Eureka Springs (Optimized Route from Bentonville)
+## Eureka Springs
 
 1. **Blue Spring Heritage Center** - Natural springs and water activities (Open: 9am-6pm Sat/Sun)
    - Address: 1537 Co Rd 210, Eureka Springs, AR 72632
