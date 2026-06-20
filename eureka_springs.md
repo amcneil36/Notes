@@ -2,25 +2,25 @@
 
 Eureka Springs is a Victorian resort town in the Ozark Mountains known for its natural beauty, historic charm, and arts scene.
 
-## Main Attractions
+## Main Attractions (Optimized Route from Bentonville)
 
-- **The Grand Central Hotel** - Historic hotel with shops and restaurants
-- **Thorncrown Chapel** - Stunning glass chapel nestled in the woods
-- **The Crescent Hotel** - Historic "haunted" hotel with tours available
-- **Onyx Cave Park** - Natural cave formations you can explore (Open: 10am-4pm Sundays, 9am-5pm Saturdays)
-- **Blue Spring Heritage Center** - Natural springs and water activities (Open: 9am-6pm Sat/Sun)
-- **Eureka Springs downtown** - Historic downtown area
-- **Eureka Springs music park** - Music and entertainment venue
+1. **The Grand Central Hotel** - Historic hotel with shops and restaurants
+   - Address: 37 N Main St, Eureka Springs, AR 72632
 
-## Activities
+2. **Eureka Springs downtown** - Historic downtown area with shops, galleries, and restaurants
+   - Address: Basin Spring Park, 4 Spring St, Eureka Springs, AR 72632
 
-- **Hiking and nature walks** - Numerous trails through the Ozark forests
-- **Arts and crafts** - The town is known for its vibrant artist community
-- **Shopping and dining** - Victorian storefronts with local boutiques and restaurants
-- **Trolley tours** - Historic trolley rides through the town
-- **Hot springs** - Several natural and developed hot spring locations
-- **Outdoor recreation** - Kayaking, fishing, and water sports on nearby lakes
+3. **Eureka Springs music park** - Music and entertainment venue
+   - Address: Basin Spring Park, 4 Spring St, Eureka Springs, AR 72632
 
-## Best Time to Visit
+4. **Thorncrown Chapel** - Stunning glass chapel nestled in the woods
+   - Address: 12968 US-62, Eureka Springs, AR 72632
 
-Spring and fall for pleasant weather and fewer crowds
+5. **Blue Spring Heritage Center** - Natural springs and water activities (Open: 9am-6pm Sat/Sun)
+   - Address: 1537 Co Rd 210, Eureka Springs, AR 72632
+
+6. **Onyx Cave Park** - Natural cave formations you can explore (Open: 10am-4pm Sundays, 9am-5pm Saturdays)
+   - Address: 338 Onyx Cave Lane, Eureka Springs, AR 72632
+
+7. **The Crescent Hotel** - Historic "haunted" hotel with tours available
+   - Address: 75 Prospect Ave, Eureka Springs, AR 72632
