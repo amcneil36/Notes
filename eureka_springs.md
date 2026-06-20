@@ -8,7 +8,7 @@ Eureka Springs is a Victorian resort town in the Ozark Mountains known for its n
 - **Thorncrown Chapel** - Stunning glass chapel nestled in the woods
 - **The Crescent Hotel** - Historic "haunted" hotel with tours available
 - **Onyx Cave Park** - Natural cave formations you can explore (Open: 10am-4pm Sundays, 9am-5pm Saturdays)
-- **Blue Spring Heritage Center** - Natural springs and water activities
+- **Blue Spring Heritage Center** - Natural springs and water activities (Open: 9am-6pm Sat/Sun)
 - **Eureka Springs downtown** - Historic downtown area
 - **Eureka Springs music park** - Music and entertainment venue
 
