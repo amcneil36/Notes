@@ -5,6 +5,8 @@
 1. **Blue Spring Heritage Center** - Natural springs and water activities (Open: 9am-6pm Sat/Sun) [50 min drive. Here for 45 mins] [Arrive: 9:40 AM. **Depart by: 10:25 AM**]
    - Address: 1537 Co Rd 210, Eureka Springs, AR 72632
 
+1.5 Leatherwood Lake Trail Head, Fuller Trail, Eureka Springs, AR 72632: [13 min drive. Here for 40 mins]
+
 2. **Thorncrown Chapel** - Stunning glass chapel nestled in the woods [11 min drive. Here for 17 mins] [Arrive: 10:36 AM. **Depart by: 10:53 AM**]
    - Address: 12968 US-62, Eureka Springs, AR 72632
 
