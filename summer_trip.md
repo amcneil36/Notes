@@ -26,8 +26,17 @@
 2. Downtown harrison
 
 ## Branson
-1. Table Rock Lakeshore Trail: 4600 Historic Hwy 165, Branson, MO 65616
-2. Branson Landing: 100 Branson Landing Blvd, Branson, MO 65616
-3. Top of the Rock Ozarks Heritage: 150 Top of the Rock Rd, Ridgedale, MO 65739
-4. Dogwood Canyon Nature Park
-6. Branson Scenic Overlook
+1. Top of the Rock Ozarks Heritage - Historic destination with scenic views
+   - Address: 150 Top of the Rock Rd, Ridgedale, MO 65739
+
+2. Table Rock Lakeshore Trail - Nature trail along the lakeshore
+   - Address: 4600 Historic Hwy 165, Branson, MO 65616
+
+3. Branson Scenic Overlook - Scenic viewpoint
+   - Address: 4525 Roark St, Branson, MO 65616
+
+4. Branson Landing - Entertainment and shopping complex
+   - Address: 100 Branson Landing Blvd, Branson, MO 65616
+
+5. Dogwood Canyon Nature Park - Nature park with trails and activities
+   - Address: 557 Dogwood Canyon Rd, Lampe, MO 65681
