@@ -20,3 +20,14 @@
 
 7. **Onyx Cave Park** - Natural cave formations you can explore (Open: 10am-4pm Sundays, 9am-5pm Saturdays)
    - Address: 338 Onyx Cave Lane, Eureka Springs, AR 72632
+
+## Harrison
+1. Sign: HPO Detailing and Power Washing. 1544 US-65, Harrison, AR 72601 and it's going north
+2. Downtown harrison
+
+## Branson
+1. Table Rock Lakeshore Trail: 4600 Historic Hwy 165, Branson, MO 65616
+2. Branson Landing: 100 Branson Landing Blvd, Branson, MO 65616
+3. Top of the Rock Ozarks Heritage: 150 Top of the Rock Rd, Ridgedale, MO 65739
+4. Dogwood Canyon Nature Park
+6. Branson Scenic Overlook
