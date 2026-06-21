@@ -41,8 +41,8 @@
 5. Dogwood Canyon Nature Park - Nature park with trails and activities
    - Address: 557 Dogwood Canyon Rd, Lampe, MO 65681
 
-## Sun Times - June 22, 2026 (Branson, MO)
-- **Civil Twilight Start:** 5:23 am
-- **Sunrise:** 5:53 am
-- **Sunset:** 8:33 pm
-- **Civil Twilight End:** 9:04 pm
+## Sun Times - June 22, 2026 (Bentonville, AR)
+- **Civil Twilight Start:** 5:28 AM
+- **Sunrise:** 5:58 AM
+- **Sunset:** 8:35 PM
+- **Civil Twilight End:** 9:06 PM
