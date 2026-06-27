@@ -54,3 +54,68 @@ Back to Bentonville: 1 hr, 17 min drive [Arrive: 9:06 PM] ✅ Matches civil twil
 - **Sunrise:** 5:58 AM
 - **Sunset:** 8:35 PM
 - **Civil Twilight End:** 9:06 PM
+
+------------
+# Reverse Loop
+
+**Depart Bentonville by: 6:44 AM**
+
+---
+
+# Branson
+
+1. **Branson Landing** - Entertainment and shopping complex [1 hr 17 min drive. Here for 45 mins] **[Arrive: 8:01 AM. Depart by: 8:46 AM]**
+   - Address: 100 Branson Landing Blvd, Branson, MO 65616
+
+2. **Branson Scenic Overlook** - Scenic viewpoint [13 min drive. Here for 15 mins] **[Arrive: 8:59 AM. Depart by: 9:14 AM]**
+   - Address: 4525 Roark St, Branson, MO 65616
+
+3. **Table Rock Lakeshore Trail** - Nature trail along the lakeshore [7 min drive. Here for 30 mins] **[Arrive: 9:21 AM. Depart by: 9:51 AM]**
+   - Address: 4600 Historic Hwy 165, Branson, MO 65616
+
+4. **Top of the Rock Ozarks Heritage** - Historic destination with scenic views [15 min drive. Here for 30 mins] **[Arrive: 10:06 AM. Depart by: 10:36 AM]**
+   - Address: 150 Top of the Rock Rd, Ridgedale, MO 65739
+
+---
+
+# Harrison
+
+1. **Downtown Harrison** [30 min drive. Here for 30 mins] **[Arrive: 11:06 AM. Depart by: 11:36 AM]**
+
+2. **HPO Detailing and Power Washing Sign** - 1544 US-65, Harrison, AR 72601 (heading north) [5 min drive. Here for 5 mins] **[Arrive: 11:41 AM. Depart by: 11:46 AM]**
+
+---
+
+# Eureka Springs
+
+1. **Onyx Cave Park** - Natural cave formations you can explore (Open: 10am-4pm Sundays, 9am-5pm Saturdays) [1 hr drive. Here for 45 mins] **[Arrive: 12:46 PM. Depart by: 1:31 PM]**
+   - Address: 338 Onyx Cave Lane, Eureka Springs, AR 72632
+
+2. **The Crescent Hotel** - Historic "haunted" hotel with tours available [15 min drive. Here for 15 mins] **[Arrive: 1:46 PM. Depart by: 2:01 PM]**
+   - Address: 75 Prospect Ave, Eureka Springs, AR 72632
+
+3. **Eureka Springs Music Park** - Music and entertainment venue [4 min drive. Here for 15 mins] **[Arrive: 2:05 PM. Depart by: 2:20 PM]**
+   - Address: Basin Spring Park, 4 Spring St, Eureka Springs, AR 72632
+
+4. **The Grand Central Hotel** - Historic hotel with shops and restaurants [2 min drive. Here for 20 mins] **[Arrive: 2:22 PM. Depart by: 2:42 PM]**
+   - Address: 37 N Main St, Eureka Springs, AR 72632
+
+5. **Eureka Springs Downtown** - Historic downtown area with shops, galleries, and restaurants [Walk. Here for 1 hour] **[Arrive: 2:42 PM. Depart by: 3:42 PM]**
+   - Address: Basin Spring Park, 4 Spring St, Eureka Springs, AR 72632
+
+6. **Lake Leatherwood City Park** - Lake, trails, and historic WPA-built dam [9 min drive. Here for 45 mins] **[Arrive: 3:51 PM. Depart by: 4:36 PM]**
+   - Address: 1303 Co Rd 204, Eureka Springs, AR 72632
+
+7. **Thorncrown Chapel** - Stunning glass chapel nestled in the woods [11 min drive. Here for 17 mins] **[Arrive: 4:47 PM. Depart by: 5:04 PM]**
+   - Address: 12968 US-62, Eureka Springs, AR 72632
+
+8. **Blue Spring Heritage Center** - Natural springs and water activities (Open: 9am-6pm Sat/Sun) [11 min drive. Here for 45 mins] **[Arrive: 5:15 PM. Depart by: 6:00 PM]**
+   - Address: 1537 Co Rd 210, Eureka Springs, AR 72632
+
+---
+
+## Return
+
+**Back to Bentonville:** 50 min drive
+
+**Arrive:** **6:50 PM**
