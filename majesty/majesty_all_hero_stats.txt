@@ -1,0 +1,690 @@
+MAJESTY: THE FANTASY KINGDOM SIM - ALL HERO STATS
+==================================================
+
+
+ADEPT
+=====
+Cost: 500 Gold
+Experience per Level: 1,400 XP
+Primary Attribute: Strength
+Attack Type: Melee, Spells
+Spells: Teleport (Short) at level 4
+Home: Temple to Lunord
+
+ATTRIBUTES:
+- Strength: 16
+- Intelligence: 19
+- Vitality: 15
+- Artifice: 7
+- Willpower: 16
+- Greed: 2
+- Loyalty: 95
+- Armor: 3
+- Hit Points: 17
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 75
+- Ranged: None
+- Parry: 75
+- Dodge: 75
+- Resist: 0
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 200
+- Speed: 5 (fastest)
+- Magic Resistance: 0
+- Poison Weapon: 100
+- Range Distance: None
+- Weapon Damage: 8
+- Upgrade Armor: 100
+- Upgrade Weapon: 100
+
+SPECIAL ABILITIES: Spell Casting
+
+NOTES: Adepts are great at guarding your kingdom with their patrol routes. They have very high loyalty.
+
+
+BARBARIAN
+==========
+Cost: 350 Gold
+Experience per Level: 1,200 XP
+Primary Attribute: Vitality
+Attack Type: Melee
+Spells: None
+Home: Temple to Krolm
+
+ATTRIBUTES:
+- Strength: 25
+- Intelligence: 5
+- Vitality: 20
+- Artifice: 9
+- Willpower: 8
+- Greed: 9
+- Loyalty: 40
+- Armor: 2
+- Hit Points: 20
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 85
+- Ranged: None
+- Parry: 45
+- Dodge: 55
+- Resist: 20
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 180
+- Speed: 1 (slowest)
+- Magic Resistance: 20
+- Poison Weapon: 75
+- Range Distance: None
+- Weapon Damage: 22
+- Upgrade Armor: 0 (no armor)
+- Upgrade Weapon: 75
+
+SPECIAL ABILITIES: Critical Hit (starts at 0%, increases 1% per level)
+
+NOTES: Barbarians deal high damage but have no armor. Combine with Rangers or Rage of Krolm for best results. Fragile if they encounter high damage attackers.
+
+
+CULTIST
+=======
+Cost: 400 Gold
+Experience per Level: 1,157 XP
+Primary Attribute: Artifice
+Attack Type: Range (uses Hand-to-Hand for success), Spells
+Spells: Charm Monster at level 1, Camouflage at level 4, Change Shape at level 7
+Home: Temple to Fervus
+
+ATTRIBUTES:
+- Strength: 11
+- Intelligence: 21
+- Vitality: 8
+- Artifice: 15
+- Willpower: 4
+- Greed: 5
+- Loyalty: 5
+- Armor: 3
+- Hit Points: 11
+- Luck: 19
+
+COMBAT STATS:
+- Hand-to-Hand: 35
+- Ranged: None
+- Parry: 30
+- Dodge: 30
+- Resist: 0
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 260
+- Speed: 3
+- Magic Resistance: 0
+- Poison Weapon: 100
+- Range Distance: 110
+- Weapon Damage: 4
+- Upgrade Armor: 85
+- Upgrade Weapon: 85
+
+SPECIAL ABILITIES: Spell Casting, Immunity to Poison, Stealing, Planting
+
+NOTES: Cultists can charm monsters and cast Camouflage. Change Shape provides stat increases. Can engage in Swarm Attacks with other Cultists. Low HP but clever.
+
+
+DWARF
+=====
+Cost: 500 Gold
+Experience per Level: 1,500 XP
+Primary Attribute: Strength
+Attack Type: Melee
+Spells: None
+Home: Dwarven Settlement
+
+ATTRIBUTES:
+- Strength: 19
+- Intelligence: 9
+- Vitality: 22
+- Artifice: 23
+- Willpower: 16
+- Greed: 20
+- Loyalty: 15
+- Armor: 9
+- Hit Points: 22
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 70
+- Ranged: None
+- Parry: 40
+- Dodge: 25
+- Resist: 70
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 150
+- Speed: 1 (slowest)
+- Magic Resistance: 70
+- Poison Weapon: 75
+- Range Distance: None
+- Weapon Damage: 12
+- Upgrade Armor: 100
+- Upgrade Weapon: 100
+
+SPECIAL ABILITIES: Building, Immunity to Poison
+
+NOTES: Dwarves build much faster than Peasants. High magic resistance. High Artifice makes poison weapon likely. Can be slow - use Winged Feet or Vigilance.
+
+
+ELF
+===
+Cost: 500 Gold
+Experience per Level: 1,600 XP
+Primary Attribute: Artifice
+Attack Type: Range
+Spells: None
+Home: Elven Bungalow
+
+ATTRIBUTES:
+- Strength: 10
+- Intelligence: 16
+- Vitality: 11
+- Artifice: 20
+- Willpower: 6
+- Greed: 23
+- Loyalty: 15
+- Armor: 6
+- Hit Points: 11
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: None
+- Ranged: 90
+- Parry: 15
+- Dodge: 60
+- Resist: 30
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 280
+- Speed: 3
+- Magic Resistance: 30
+- Poison Weapon: 100
+- Range Distance: 260
+- Weapon Damage: 6
+- Upgrade Armor: 100
+- Upgrade Weapon: 100
+
+SPECIAL ABILITIES: Stealing, Entertaining
+
+NOTES: Elves are very greedy and explore with minimal incentive. High Sight Range helps reveal map. Their guilds are non-taxable. Invisibility is powerful on Elves.
+
+
+GNOME
+=====
+Cost: 100 Gold
+Experience per Level: 750 XP
+Primary Attribute: Willpower
+Attack Type: Melee
+Spells: None
+Home: Gnome Hovel
+
+ATTRIBUTES:
+- Strength: 1
+- Intelligence: 12
+- Vitality: 3
+- Artifice: 12
+- Willpower: 18
+- Greed: 1
+- Loyalty: 45
+- Armor: 0
+- Hit Points: 3
+- Luck: 21
+
+COMBAT STATS:
+- Hand-to-Hand: 20
+- Ranged: None
+- Parry: 75
+- Dodge: 75
+- Resist: 0
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 180
+- Speed: 2
+- Magic Resistance: 0
+- Poison Weapon: 100
+- Range Distance: None
+- Weapon Damage: 4
+- Upgrade Armor: 75
+- Upgrade Weapon: 75
+
+SPECIAL ABILITIES: Building
+
+NOTES: Gnomes do not count as heroes for Palace upgrades. Build and repair lightning fast. Excellent for quests with many Raiders. Very fragile in combat.
+
+
+HEALER
+======
+Cost: 300 Gold
+Experience per Level: 900 XP
+Primary Attribute: Intelligence
+Attack Type: Melee, Spells
+Spells: Heal at level 1, Meditation at level 4, Aura of Peace at level 7
+Home: Temple to Agrela
+
+ATTRIBUTES:
+- Strength: 1
+- Intelligence: 22
+- Vitality: 7
+- Artifice: 3
+- Willpower: 25
+- Greed: 1
+- Loyalty: 50
+- Armor: 0
+- Hit Points: 7
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 15
+- Ranged: None
+- Parry: 25
+- Dodge: 40
+- Resist: 0
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 220
+- Speed: 2
+- Magic Resistance: 0
+- Poison Weapon: 10
+- Range Distance: None
+- Weapon Damage: 4
+- Upgrade Armor: 0
+- Upgrade Weapon: 10
+
+SPECIAL ABILITIES: Planting, Rebirth, Spell Casting
+
+NOTES: Healers follow Warriors and Wizards to keep them alive. Can also heal Tax Collectors. Do not fight unless attacked. Altruistic nature means they heal opponent heroes in multiplayer - increase loyalty with Statues.
+
+
+MONK
+====
+Cost: 550 Gold
+Experience per Level: 1,400 XP
+Primary Attribute: Willpower
+Attack Type: Melee, Spells
+Spells: Hands of Steel at level 1, Stone Skin at level 4, Iron Will at level 7
+Home: Temple to Dauros
+
+ATTRIBUTES:
+- Strength: 17
+- Intelligence: 20
+- Vitality: 19
+- Artifice: 5
+- Willpower: 27
+- Greed: 2
+- Loyalty: 30
+- Armor: 0
+- Hit Points: 19
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 55
+- Ranged: None
+- Parry: 75
+- Dodge: 70
+- Resist: 30
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 200
+- Speed: 1 (slowest)
+- Magic Resistance: 30
+- Poison Weapon: 0
+- Range Distance: None
+- Weapon Damage: 8
+- Upgrade Armor: 0
+- Upgrade Weapon: 0
+
+SPECIAL ABILITIES: Spell Casting
+
+NOTES: Monks are slow but nearly invulnerable once they get Iron Will. No weapons or armor needed. Use Vigilance or Winged Feet to increase speed. Do well guarding Healers.
+
+
+PALADIN
+=======
+Cost: 1,000 Gold
+Experience per Level: 2,000 XP
+Primary Attribute: Intelligence
+Attack Type: Melee, Spells
+Spells: Shield of Light at level 4
+Home: Warriors Guild (requires Temple to Dauros)
+
+ATTRIBUTES:
+- Strength: 21
+- Intelligence: 14
+- Vitality: 20
+- Artifice: 10
+- Willpower: 23
+- Greed: 3
+- Loyalty: 90
+- Armor: 10
+- Hit Points: 21
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 85
+- Ranged: None
+- Parry: 75
+- Dodge: 55
+- Resist: 5
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 200
+- Speed: 2
+- Magic Resistance: 5
+- Poison Weapon: 0
+- Range Distance: None
+- Weapon Damage: 10
+- Upgrade Armor: 100
+- Upgrade Weapon: 100
+
+SPECIAL ABILITIES: Spell Casting
+
+NOTES: Paladins are very useful warriors. With Shield of Light, they can fight powerful creatures like Vampires and Werewolves one-on-one. Very loyal.
+
+
+PRIESTESS
+==========
+Cost: 400 Gold
+Experience per Level: 1,200 XP
+Primary Attribute: Intelligence
+Attack Type: Melee, Spells
+Spells: Control Undead at level 1, Aura of Peace at level 4, Drain Life at level 7
+Home: Temple to Krypta
+
+ATTRIBUTES:
+- Strength: 2
+- Intelligence: 24
+- Vitality: 6
+- Artifice: 5
+- Willpower: 18
+- Greed: 3
+- Loyalty: 30
+- Armor: 0
+- Hit Points: 10
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 20
+- Ranged: None
+- Parry: 10
+- Dodge: 20
+- Resist: 35
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 220
+- Speed: 1 (slowest)
+- Magic Resistance: 35
+- Poison Weapon: 0
+- Range Distance: None
+- Weapon Damage: 8
+- Upgrade Armor: 80
+- Upgrade Weapon: 0
+
+SPECIAL ABILITIES: Spell Casting
+
+NOTES: Priestesses serve Krypta, goddess of death. Can control undead creatures. Frail but powerful magic users.
+
+
+RANGER
+======
+Cost: 350 Gold
+Experience per Level: 1,250 XP
+Primary Attribute: Intellig ence
+Attack Type: Range
+Spells: None
+Home: Rangers Guild
+
+ATTRIBUTES:
+- Strength: 12
+- Intelligence: 16
+- Vitality: 13
+- Artifice: 18
+- Willpower: 18
+- Greed: 3
+- Loyalty: 10
+- Armor: 3
+- Hit Points: 14
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: None
+- Ranged: 75
+- Parry: 15
+- Dodge: 50
+- Resist: 0
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 260
+- Speed: 3
+- Magic Resistance: 0
+- Poison Weapon: 100
+- Range Distance: 250 (increases by 10 per level, max 550)
+- Weapon Damage: 6
+- Upgrade Armor: 100
+- Upgrade Weapon: 100
+
+SPECIAL ABILITIES: Harvesting, Journeying to Distant Lands
+
+NOTES: Rangers are important for quick map exploration. Range and Sight Distance increase by 10 per level (only hero with this ability). Can gather healing plants and make potions.
+
+
+ROGUE
+=====
+Cost: 275 Gold
+Experience per Level: 1,000 XP
+Primary Attribute: Artifice
+Attack Type: Range
+Spells: None
+Home: Rogues Guild
+
+ATTRIBUTES:
+- Strength: 9
+- Intelligence: 15
+- Vitality: 11
+- Artifice: 25
+- Willpower: 3
+- Greed: 26
+- Loyalty: 0
+- Armor: 3
+- Hit Points: 11
+- Luck: 16
+
+COMBAT STATS:
+- Hand-to-Hand: None
+- Ranged: 55
+- Parry: 35
+- Dodge: 45
+- Resist: 0
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 200
+- Speed: 3
+- Magic Resistance: 0
+- Poison Weapon: 100
+- Range Distance: 130
+- Weapon Damage: 8
+- Upgrade Armor: 100
+- Upgrade Weapon: 100
+
+SPECIAL ABILITIES: Harvesting, Looting Gravestones, Stealing
+
+NOTES: Rogues have highest Greed and chase Explore Flags easily. Great at stealing Gold from lairs and opponent buildings in multiplayer. Very low Loyalty - increase with Statues or Royal Gardens or they'll steal from your buildings.
+
+
+SOLARIUS
+=========
+Cost: 500 Gold
+Experience per Level: 1,000 XP
+Primary Attribute: Strength
+Attack Type: Melee, Spells
+Spells: Sun Scorch at level 4
+Home: Temple to Helia
+
+ATTRIBUTES:
+- Strength: 19
+- Intelligence: 16
+- Vitality: 18
+- Artifice: 6
+- Willpower: 15
+- Greed: 3
+- Loyalty: 15
+- Armor: 6
+- Hit Points: 25
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 85
+- Ranged: None
+- Parry: 55
+- Dodge: 60
+- Resist: 0
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 200
+- Speed: 2
+- Magic Resistance: 0
+- Poison Weapon: 100
+- Range Distance: None
+- Weapon Damage: 12
+- Upgrade Armor: 100
+- Upgrade Weapon: 100
+
+SPECIAL ABILITIES: Spell Casting
+
+NOTES: Solarii can find hidden lairs. They garrison with City Guards. Sun Scorch spell provides good firepower. (Solarii is plural.)
+
+
+WARRIOR
+=======
+Cost: 450 Gold
+Experience per Level: 1,000 XP
+Primary Attribute: Strength
+Attack Type: Melee
+Spells: None
+Home: Warriors Guild
+
+ATTRIBUTES:
+- Strength: 18
+- Intelligence: 8
+- Vitality: 18
+- Artifice: 7
+- Willpower: 14
+- Greed: 12
+- Loyalty: 30
+- Armor: 9
+- Hit Points: 18
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 70
+- Ranged: None
+- Parry: 45
+- Dodge: 35
+- Resist: 0
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 185
+- Speed: 1 (slowest)
+- Magic Resistance: 0
+- Poison Weapon: 100
+- Range Distance: None
+- Weapon Damage: 10
+- Upgrade Armor: 100
+- Upgrade Weapon: 100
+
+SPECIAL ABILITIES: None
+
+NOTES: Warriors are great all-around fighters that protect early-game kingdoms. Often eclipsed by later heroes unless they survive long enough to reach high levels.
+
+
+WARRIOR OF DISCORD
+==================
+Cost: 900 Gold
+Experience per Level: 2,000 XP
+Primary Attribute: Vitality
+Attack Type: Melee
+Spells: None
+Home: Warriors Guild (requires Temple to Fervus)
+
+ATTRIBUTES:
+- Strength: 35
+- Intelligence: 2
+- Vitality: 35
+- Artifice: 3
+- Willpower: 12
+- Greed: 4
+- Loyalty: 0
+- Armor: 5
+- Hit Points: 35
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 95
+- Ranged: None
+- Parry: 30
+- Dodge: 30
+- Resist: 5
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 200
+- Speed: 1 (slowest)
+- Magic Resistance: 5
+- Poison Weapon: 100
+- Range Distance: None
+- Weapon Damage: 16
+- Upgrade Armor: 75
+- Upgrade Weapon: 75
+
+SPECIAL ABILITIES: Attack Multiple Foes (level 3), Critical Hit (3%), Immunity to Poison
+
+NOTES: Warriors of Discord are chaos incarnate with high Strength and Vitality. Slow and disconnected from reality - they won't buy Healing Potions or upgrades without help. Very low Intelligence and Loyalty.
+
+
+WIZARD
+======
+Cost: 500 Gold
+Experience per Level: 2,000 XP
+Primary Attribute: Intelligence
+Attack Type: Melee, Spells
+Spells: Requires learning at Library
+Home: Wizards Guild
+
+ATTRIBUTES:
+- Strength: 1
+- Intelligence: 25
+- Vitality: 4
+- Artifice: 4
+- Willpower: 17
+- Greed: 11
+- Loyalty: 30
+- Armor: 0
+- Hit Points: 4
+- Luck: 15
+
+COMBAT STATS:
+- Hand-to-Hand: 25
+- Ranged: None
+- Parry: 15
+- Dodge: 25
+- Resist: 35
+
+HIDDEN ATTRIBUTES:
+- Sight Range: 240
+- Speed: 1 (slowest)
+- Magic Resistance: 35
+- Poison Weapon: 0
+- Range Distance: None
+- Weapon Damage: 8
+- Upgrade Armor: 0
+- Upgrade Weapon: 0
+
+SPECIAL ABILITIES: Spell Casting
+
+NOTES: Wizards are slow, extremely fragile, and expensive. They require a Library for learning spells. A high-level Wizard is very powerful. Pair with Rangers or Barbarians for support.

@@ -1,0 +1,267 @@
+MAJESTY: THE FANTASY KINGDOM SIM - COMBAT SYSTEM
+=================================================
+
+OVERVIEW
+========
+Combat in Majesty follows a specific sequence: chance to hit, damage calculation, and damage reduction. The system uses percentage rolls (1-100) to determine outcomes.
+
+
+PHASE 1: CHANCE TO HIT
+======================
+
+MELEE ATTACKS (vs Heroes/Monsters)
+----------------------------------
+1. Attacker makes a percentage roll against their Hand-to-Hand ability
+   - If roll ≤ Hand-to-Hand: Attack proceeds
+   - If roll > Hand-to-Hand: Attack misses
+
+2. If attack proceeds, Defender makes a percentage roll against their Parry ability
+   - If roll ≤ Parry: Attack is completely avoided (no damage)
+   - If roll > Parry: Attack hits (proceed to Phase 2)
+
+EXAMPLE: Warrior (Hand-to-Hand 70) attacking a Goblin
+- Roll 65: Hits (65 ≤ 70), Goblin rolls against Parry
+- Goblin has Parry 40, rolls 35: Goblin avoids (35 ≤ 40)
+- Result: No damage dealt
+
+
+RANGED ATTACKS (vs Heroes/Monsters)
+-----------------------------------
+1. Attacker makes a percentage roll against their Ranged ability
+   - If roll ≤ Ranged: Attack proceeds
+   - If roll > Ranged: Attack misses
+
+2. If attack proceeds, Defender makes a percentage roll against their Dodge ability
+   - If roll ≤ Dodge: Attack is completely avoided (no damage)
+   - If roll > Dodge: Attack hits (proceed to Phase 2)
+
+EXAMPLE: Ranger (Ranged 75) shooting at a Vampire
+- Roll 60: Hits (60 ≤ 75), Vampire rolls against Dodge
+- Vampire has Dodge 50, rolls 55: Hit gets through (55 > 50)
+- Result: Proceed to damage calculation
+
+
+ATTACKS VS LAIRS/BUILDINGS
+---------------------------
+Attacks on lairs and buildings automatically hit. No roll needed.
+
+
+SPELL ATTACKS (vs Heroes/Monsters)
+----------------------------------
+Magical attacks automatically hit the target.
+
+Defender makes a percentage roll against their Magic Resistance to completely avoid:
+- If roll ≤ Magic Resistance: Spell is completely avoided (no damage)
+- If roll > Magic Resistance: Spell hits (proceed to Phase 2)
+
+EXAMPLE: Wizard casting Fire Blast on a Hell Bear
+- Fire Blast automatically targets Hell Bear
+- Hell Bear has Magic Resistance 30, rolls 45: Hit gets through (45 > 30)
+- Result: Proceed to damage calculation
+
+
+PHASE 2: INITIAL DAMAGE CALCULATION
+====================================
+
+MELEE/RANGED ATTACKS by HEROES
+------------------------------
+Damage = (1 to Weapon Damage) + (1 per magic bonus of weapon) + (Hero's Strength / 8)
+
+Breaking this down:
+- Random damage from weapon: 1 to [Weapon Damage stat]
+- Bonus from magical enchantments on weapon: +1 per magic level
+- Strength bonus: Strength divided by 8 (rounded down)
+
+EXAMPLE: Warrior with Longsword attacking
+- Warrior's Strength: 18
+- Longsword Weapon Damage: 10
+- Longsword has no magic bonus
+- Damage = (1-10) + 0 + (18/8) = (1-10) + 2 = 3-12 damage
+
+
+MELEE/RANGED ATTACKS by MONSTERS
+--------------------------------
+X = Monster's Strength / 4 (rounded down)
+Y = Monster's Strength - X
+Damage = (Random Number from 1 to Y) + X
+
+EXAMPLE: Hell Bear with Strength 35 attacking
+- X = 35 / 4 = 8
+- Y = 35 - 8 = 27
+- Damage = (Random 1-27) + 8 = 9-35 damage
+
+
+SPELL ATTACKS by HEROES
+-----------------------
+Damage = Spell's Base Damage + (Caster's Intelligence / 4)
+
+Breaking this down:
+- Each spell has a base damage range (e.g., Fire Blast does 8-20)
+- Add bonus from caster's Intelligence divided by 4 (rounded down)
+
+EXAMPLE: Wizard with Intelligence 25 casting Fire Blast
+- Fire Blast base damage: 8-20
+- Intelligence bonus: 25 / 4 = 6
+- Total damage: 14-26 damage
+
+
+SPELL DAMAGE RANGES
+------------------
+When a spell does a range of damage (e.g., 16-35):
+- Generate random number from 1 to maximum (1-35 in this case)
+- If result is below minimum, use minimum damage (16)
+- This means minimum damage is MORE likely than maximum
+
+EXAMPLE: Meteor Storm with range 16-35
+- Possible rolls: 1-35
+- Rolls 1-15 become: 16 damage
+- Rolls 16-35 become: 16-35 damage
+- Result: More common to do lower damage
+
+
+SPELL ATTACKS by MONSTERS
+-------------------------
+Monster spells follow similar rules to hero spells, with damage increased by (Monster's Intelligence / 4) if the monster has that stat.
+
+
+PHASE 3: DAMAGE REDUCTION
+==========================
+
+DEFENDING AGAINST MELEE/RANGED ATTACKS
+--------------------------------------
+Armor reduces incoming physical damage.
+
+Formula:
+X = Armor / 2 (rounded down)
+Y = Armor - X - 1
+Z = (Random Number from 0 to Y) + (1 per magic bonus of armor)
+Damage Stopped = X + Z
+
+Breaking this down:
+- Base armor reduction: Armor / 2
+- Variable reduction: Random amount from 0 to (Armor - X - 1)
+- Magical armor bonus: +1 per enchantment level
+- These add together to reduce incoming damage
+
+EXAMPLE: Paladin with Armor 10, Magic Plate Armor (magic bonus +1)
+- X = 10 / 2 = 5
+- Y = 10 - 5 - 1 = 4
+- Z = (Random 0-4) + 1 = 1-5
+- Damage Stopped = 5 + (1-5) = 6-10 damage reduced
+- If attack would do 12 damage, Paladin takes 2-6 damage
+
+
+DEFENDING AGAINST SPELL ATTACKS
+--------------------------------
+Magic Resistance first prevents spell (see Phase 1).
+
+If spell hits, spell damage is reduced by:
+- 2 points per point of armor enchantment
+
+EXAMPLE: Wizard wearing armor with +3 magic bonus is hit by Fireball
+- Fireball does 15 damage
+- Armor magic bonus: 3 points
+- Damage reduction: 3 × 2 = 6 points
+- Wizard takes: 15 - 6 = 9 damage
+
+
+DEFENDING BUILDINGS/LAIRS
+--------------------------
+All damage to buildings and lairs is automatically halved.
+
+EXAMPLE: Ballista Tower fires at a Goblin Camp with 200 Hit Points
+- Ballista does 20 damage
+- Building damage reduction: 20 / 2 = 10 damage
+- Goblin Camp takes 10 damage, now at 190 Hit Points
+
+
+DAMAGE SUMMARY TABLE
+====================
+
+Attack Type          Accuracy Check              Bypass               Reduction
+-----------          ---------------              ------               ---------
+Melee (Hero)         Hand-to-Hand vs target       Parry                Armor
+Ranged (Hero)        Ranged vs target            Dodge                Armor
+Melee (Monster)      Automatic                   Parry                Armor
+Ranged (Monster)     Automatic                   Dodge                Armor
+Spell (Hero/Monster) Automatic                   Magic Resistance     Armor enchant × 2
+Building/Lair        Automatic                   N/A                  50% reduction
+
+
+CRITICAL HITS
+=============
+Some heroes can deal critical hits (Barbarians, Warriors of Discord):
+- Critical Hit chance: Listed as percentage (e.g., 3%)
+- Effect: Target instantly killed (or takes 1/6 of HP if has Resist Critical Hit)
+- Defenders with Resist Critical Hit ability instead take 1/6 damage
+
+
+COMBAT EXAMPLES
+===============
+
+EXAMPLE 1: Ranger vs Skeleton
+Ranger: Hand-to-Hand None, Ranged 75, Dodge 50, Strength 12, Damage 6
+Skeleton: Dodge 40, Armor 0
+
+1. Chance to Hit:
+   - Ranger rolls 65 vs Ranged 75: Hit (65 ≤ 75)
+   - Skeleton rolls 35 vs Dodge 40: Hit gets through (35 > 40)
+
+2. Damage Calculation:
+   - (1-6) + (12/8) = (1-6) + 1 = 2-7 damage
+   - Roll comes up 5: Total damage = 5 points
+
+3. Damage Reduction:
+   - Skeleton armor = 0
+   - No reduction
+   - Skeleton takes 5 damage
+
+
+EXAMPLE 2: Wizard vs Hell Bear
+Wizard: Spell attack (Fire Blast 8-20), Intelligence 25
+Hell Bear: Magic Resistance 30, Armor 8
+
+1. Chance to Hit:
+   - Fire Blast automatically targets Hell Bear
+   - Hell Bear rolls 35 vs Magic Resistance 30: Hit gets through (35 > 30)
+
+2. Damage Calculation:
+   - Fire Blast base: 8-20
+   - Intelligence bonus: 25 / 4 = 6
+   - Total damage range: 14-26
+   - Roll comes up 18: Total damage = 18 points
+
+3. Damage Reduction:
+   - Armor 8 defending against spell
+   - Magic bonus (if any): Let's say +2
+   - Damage stopped: 2 × 2 = 4 points
+   - Hell Bear takes: 18 - 4 = 14 damage
+
+
+KEY COMBAT MECHANICS
+====================
+
+ACCURACY & DIFFICULTY
+- Stats above 95 cap at 95 (defensive stats cap at 85 in multiplayer)
+- Stats above cap provide minute benefits to tournament performance
+- Combat becomes more reliable with higher stats
+
+ARMOR EFFECTIVENESS
+- Armor is more effective against multiple attacks than single large attacks
+- Magical armor enchantments are crucial for spell resistance
+- Buildings take 50% damage, making them harder to destroy
+
+SPELL ADVANTAGES
+- Spells automatically hit (bypassing accuracy rolls)
+- Only Magic Resistance can prevent them
+- Intelligence provides both spell damage and survivability
+
+MONSTER COMBAT
+- Monster attacks automatically hit (no accuracy check)
+- Defenders still get Parry/Dodge/Magic Resistance rolls
+- Monster damage scales with their Strength stat
+
+LEVELING BENEFITS
+- Most combat stats increase by 1 per level
+- Key attributes increase by 1 every other level
+- Level matters significantly in combat outcomes

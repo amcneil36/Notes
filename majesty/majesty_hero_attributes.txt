@@ -1,0 +1,192 @@
+MAJESTY: THE FANTASY KINGDOM SIM - HERO ATTRIBUTES AND STATS
+=============================================================
+=============================
+
+BASIC INFO
+----------
+- Cost: 900 Gold to recruit
+- Experience per Level: 2,000 XP
+- Primary Attribute: Vitality
+- Allowed Armor: Leather Harness, Razor Harness, Chaos Armor, Ultra Chaos Armor, Anti-Enthalpy Armor, Ultimate Chaos Armor
+- Allowed Weapons: Blade-stick, Razor Blade-stick, Chaos Blade-stick, Ultra Chaos Blade-stick, Entropy Avenger, Random Slayer, Weapon of Death
+- Attack Type: Melee
+- Spells: None
+
+PRIMARY ATTRIBUTES
+------------------
+- Strength: 35
+- Intelligence: 2
+- Vitality: 35 (key attribute, increases every other level)
+- Artifice: 3
+- Willpower: (not listed, uses default)
+
+COMBAT STATS
+------------
+- Hand-to-Hand: 95
+- Ranged: None
+- Parry: 30
+- Dodge: 30
+- Resist: 5
+
+DEFENSIVE STATS
+---------------
+- Armor: 5
+- Magic Resistance: 5
+- Upgrade Armor: 75
+- Poison Weapon: 100
+
+HIDDEN ATTRIBUTES
+-----------------
+- Greed: 4
+- Loyalty: 0
+- Range Distance: None
+- Casting Range: None
+- Sight Range: 200
+- Speed: 1 (slowest)
+- Hit Points: 35
+- Luck: 15
+
+SPECIAL ABILITIES
+-----------------
+- Attack Multiple Foes (gained at level 3): Attack up to 3 enemies within a 30 Range Distance
+- Critical Hit: 3% chance to instantly kill target (or deal 1/6 HP damage if target has Resist Critical Hit)
+- Immunity to Poison: Poison has no effect on this hero
+
+NOTES
+-----
+Warriors of Discord are slow and often lack the intelligence to buy Healing Potions or equipment upgrades on their own. They are highly skilled in melee combat but suffer from low armor values, little defensive skill, and very low intelligence. They have the highest Self-Estimation (2.0) and lowest Enemy Estimation (0.5) of all heroes.
+
+
+
+
+PRIMARY ATTRIBUTES
+===================
+
+Upon hero recruitment, every Primary Attribute except Willpower is increased by a random number between -2 and 2.
+
+Every hero has a key attribute, indicated by a ★ in-game. This attribute will increase with every other level the hero gains. This is the only attribute that will increase naturally; all other Primary Attributes remain the same at level 100.
+
+STRENGTH
+--------
+- Increases physical damage from melee and ranged attacks (1 for every 8 points, rounded down)
+- Determines the amount of HP given to buildings when Repairing
+- Determines odds of resisting the Vines spell
+
+INTELLIGENCE
+------------
+- Increases damage dealt by hero spells (1 for every 4 points, rounded down)
+- Determines odds of buying and upgrading equipment from Marketplace, Trading Post, Blacksmith, Wizard's Guild, and Magic Bazaar
+- Determines how far the hero will travel to use those buildings (sight range * (Intelligence / 2, rounded down))
+- Determines non-Wizards' odds of learning spells at the Library
+- Determines eligibility and odds of winning in the Magic Tourney at the Fairgrounds
+- Determines how far a Healer will go to heal another hero
+- Determines potency of Healer's Heal spell
+
+VITALITY
+--------
+- Determines the HP gained at level up
+- Heroes gain a random amount of HP between 25% and 50% (rounded down) of their Vitality
+- Determines whether Ratman Plague spreads and how long it lasts
+
+ARTIFICE
+--------
+- Determines odds of a hero successfully stealing gold and enchanted gear (from monster lairs)
+- Determines odds of the hero poisoning their weapon at the Rogue's Guild
+- Determines how far the hero will travel to poison weapons (sight range * (Artifice / 2, rounded down))
+- Note: Despite documentation, Artifice has no impact on whether a hero will try to steal or how often
+
+WILLPOWER
+---------
+- Determines odds of a hero using a Lounge or Gambling Hall
+
+Probability Notes: Most checks use a d30, so for every point of Intelligence, Artifice, and Willpower a hero gains, their odds increase by ~3%. Stealing magical equipment from lairs uses d50; resisting Vines uses d40; learning generic spells at Library uses d30 + 10.
+
+
+HIDDEN ATTRIBUTES
+==================
+
+These attributes are not displayed in-game and are only visible in game files. They have significant impact on hero behavior and are not randomized.
+
+GREED (1-26)
+-----------
+- Heroes multiply a reward flag's bounty by their Greed / 4 (rounded down) when deciding whether to take the bounty
+- Determines how far a hero will travel to steal
+- Alongside Willpower, determines odds of a hero using a Gambling Hall
+
+LOYALTY
+-------
+- How loyal the hero is to you and your kingdom
+- Low Loyalty: Heroes more likely to steal from your buildings, spend money at another Sovereign's buildings, heal/support hostile heroes, answer another Sovereign's Attack flag
+- High Loyalty: Heroes more likely to wait in an Inn instead of leaving the map if they become homeless
+
+RANGE DISTANCE
+--------------
+- The distance that the hero can fire a ranged weapon
+
+CASTING RANGE
+-------------
+- The range at which heroes can target hostiles with attack spells
+
+SIGHT RANGE
+-----------
+- The distance that the hero can see
+- Important for revealing hidden map areas and reacting to nearby dangers
+- Plays significant role in how far a hero will travel to use services
+
+SPEED (1-5)
+-----------
+- How fast the hero moves
+- 5 is the fastest
+
+LUCK
+----
+- Determines the hero's odds of winning when they use the Gambling Hall
+
+SELF-ESTIMATION (0.3-2.0)
+-------------------------
+- A multiplier applied to a hero's assessment of their own prowess when guessing whether they could win a fight
+- Ranges from 0.3 (Gnomes) to 2 (Warriors of Discord)
+
+ENEMY ESTIMATION (0.5-1.9)
+--------------------------
+- A multiplier applied to a hero's assessment of their enemy's prowess when guessing whether they could win a fight
+- Ranges from 1.9 (Gnomes) to 0.5 (Warriors of Discord)
+
+HP THRESHOLD
+------------
+- If a hero's HP drops below this threshold, they will try to heal using potions or magic
+- If neither is available, they will consider fleeing
+- Ranges from 15% (Paladins and Warriors of Discord) to 65% (Gnomes)
+- Majority of heroes: 35%
+
+RANGER SPECIAL NOTE
+-------------------
+For the Ranger only: Range and Sight Distance both increase by 10 with every level, to a maximum of 550. No other hero can increase these stats.
+
+
+COMBAT STATS
+============
+
+HAND-TO-HAND
+-----------
+- The percent chance a melee attack will "hit" the target
+- Determines odds of joining and winning melee tournaments at the Fairgrounds
+
+RANGED
+------
+- The percent chance a ranged attack will "hit" the target
+- Determines odds of joining and winning ranged tournaments at the Fairgrounds
+
+PARRY
+-----
+- The percent chance a melee attack will be avoided after the enemy successfully rolls a "hit"
+
+DODGE
+-----
+- The percent chance a ranged attack will be avoided after the enemy successfully rolls a "hit"
+
+RESIST
+------
+- The percent chance a magic attack will be avoided
+- All stats are effectively capped at 95 (defensive stats are capped at 85 in multiplayer)
+- Stats can be raised above this amount, but it will have no impact on combat (though raising Hand-to-Hand and Ranged above 95 provides minute benefits)
